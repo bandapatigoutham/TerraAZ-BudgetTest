@@ -1,0 +1,10 @@
+AzureDFProvider.tf
+AzureDFProviderSecret.tfold
+AzureDFProviderSecret.tf
+AzureDFProvider.tfold
+/Sources
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate*
+.terraform/
+terraform.tfvars
