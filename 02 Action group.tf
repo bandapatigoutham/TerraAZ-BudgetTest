@@ -4,7 +4,7 @@
 
 module "BudgetActionGroup" {
     #Module source
-    source = "github.com/dfrappart/Terra-AZModuletest//Modules//47 Azure Monitor Action Group/"
+    source = "github.com/bandapatigoutham/Terra-AZModuletest//Modules//47 Azure Monitor Action Group/"
 
 
     #Module variables

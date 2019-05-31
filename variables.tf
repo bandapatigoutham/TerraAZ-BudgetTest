@@ -6,7 +6,7 @@
 
 variable "AzureRegion" {
   type    = "string"
-  default = "westeurope"
+  default = "South Central US"
 }
 
 

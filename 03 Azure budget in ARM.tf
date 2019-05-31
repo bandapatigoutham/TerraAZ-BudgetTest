@@ -13,7 +13,7 @@ resource "azurerm_template_deployment" "Template-AZBudget" {
     "amount"            = "100"
     "budgetCategory"    = "Cost"
     "timeGrain"         = "Monthly"
-    "startDate"         = "2019-03-01"
+    "startDate"         = "2019-05-01"
     "operator"          = "GreaterThanOrEqualTo"
     "threshold"         = "90"
     "contactGroup"     = "${module.BudgetActionGroup.AGName}"

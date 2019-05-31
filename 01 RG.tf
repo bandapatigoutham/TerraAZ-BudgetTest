@@ -6,7 +6,7 @@
 
 module "ResourceGroupMonitoring" {
   #Module Location
-  source = "github.com/dfrappart/Terra-AZModuletest//Modules//01 ResourceGroup/"
+  source = "github.com/bandapatigoutham/Terra-AZModuletest//Modules//01 ResourceGroup/"
 
   #Module variable
   RGName              = "${var.RGName}"
